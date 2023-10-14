@@ -35,4 +35,4 @@ else :
     Grade = "Very poor" # Average score < 10 is "Very poor"
 
 # Output: Display the average score and assigned grade.
-print("Average score: ",Average ,"Grade: ", Grade)
+print("Average score: ",round(Average, 2) ,"\n"+"Grade: ", Grade)
